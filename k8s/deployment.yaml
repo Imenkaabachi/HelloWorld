@@ -13,7 +13,7 @@ spec:
         app: flask-app
     spec:
       containers:
-      - name: flask-container
+      - name: flask-app
         image: imenkaabachi/flask-app:latest
         ports:
         - containerPort: 5000
